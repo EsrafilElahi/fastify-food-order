@@ -1,6 +1,7 @@
 import { Sequelize } from 'sequelize'
 import models from './models/index.js'
 
+
 const sequelize = new Sequelize('postgres://postgres:1029@localhost:5432/example',{
   logging: false,
 })
