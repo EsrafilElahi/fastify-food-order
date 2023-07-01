@@ -1,14 +1,14 @@
 {
-  "name": "sequelize",
+  "name": "fastify-food-order",
   "version": "1.0.0",
-  "description": "",
+  "description": "fastify-food-order app",
   "type": "module",
   "main": "sequelize.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/app.js",
     "dev": "nodemon src/app.js",
-    "restart": "nodemon app.js"
+    "start": "node src/app.js",
+    "restart": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
